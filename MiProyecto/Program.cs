@@ -1,6 +1,7 @@
 ﻿using MiProyecto;
 
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("Bienvenidos a mi programa en GIT");
 
 try
 {
@@ -12,5 +13,5 @@ try
 catch (Exception error)
 {
 	Console.WriteLine(error.Message);
-	//throw;
+	
 }
